@@ -1,0 +1,10 @@
+.git
+.env
+target/
+src/test/
+automation.bash
+Dockerfile
+*.md
+*.log
+
+docs/

@@ -1,0 +1,16 @@
+# Build outputs
+src/bin/
+src/obj/
+tests/*/bin/
+tests/*/obj/
+
+# .NET user files
+*.user
+*.suo
+.vs/
+
+# Environment
+.env
+
+# Logs
+*.log

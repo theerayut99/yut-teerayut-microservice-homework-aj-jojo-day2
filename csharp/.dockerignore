@@ -1,0 +1,10 @@
+.git
+.env
+tests/
+automation.bash
+Dockerfile
+*.md
+*.log
+docs/
+src/bin/
+src/obj/

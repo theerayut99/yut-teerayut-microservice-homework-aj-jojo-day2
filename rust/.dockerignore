@@ -1,0 +1,14 @@
+target
+
+.gitignore
+
+Dockerfile
+Dockerfile*
+cd.*
+
+automation.bash
+.dockerignore
+.env
+.env.*
+
+docs/
