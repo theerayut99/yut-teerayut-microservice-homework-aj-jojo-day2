@@ -31,7 +31,7 @@ Monorepo นี้ มี Project 7 ภาษา
       "redis_endpoint": <ค่าเปลี่ยนตาม key REDIS_ENDPOINT>
    },
 ...
-4. Live Reload โดยการตั้งค่า `-v "$(pwd)/.env:/app/.env:ro"` (docker run)
+4. Live Reload โดยการตั้งค่า `-v "$(pwd)/.env:/app/.env:ro"` (docker run) สามารถเปลี่ยนค่า "database_url", "redis_endpoint" ใน file .env แล้วเรียก request ใหม่ ค่าจะเปลี่ยนทันที โดยไม่ต้อง reload docker ใหม่
 
 ### ขนาด Images ที่ Publish บน Docker hub
 ![alt text](image.png)
